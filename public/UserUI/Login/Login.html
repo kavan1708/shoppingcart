@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+</head>   
+  <body>
+    
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+          <a class="navbar-brand" href="#">Phone Shopping</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1156/VendorUI/Vendor.html">Vendors</a>
+              </li> -->
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:1400/UserUI/SignUp/SignUp.html">SignUp</a>
+              </li>    
+              
+            </ul>     
+          </div>
+        </nav> 
+    <div class="text-center  bdy"> 
+    <form class="form-signin">
+  <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+  <label for="emailId" class="sr-only">Email address</label>
+  <input type="email" id="emailId" class="form-control" placeholder="Email address" required autofocus>
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" id="password" class="form-control" placeholder="Password" required>
+  <button class="btn btn-lg btn-primary btn-block" id="login">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2019-2020</p>
+</form>
+</div>
+          
+ 
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="LoginScript.js"></script>
+
+</body>
+</html>
