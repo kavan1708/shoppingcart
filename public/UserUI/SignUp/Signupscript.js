@@ -5,7 +5,7 @@ $('#signUpButton').click(()=>{
     user.email=$('#emailId').val();
     user.password=$('#password').val();
 
-   $.post('http://localhost:1400/api/users/',user,
+   $.post('/api/users/',user,
    (data)=>{
     if(data.success)
     {

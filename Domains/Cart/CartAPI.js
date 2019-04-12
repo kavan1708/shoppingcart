@@ -31,8 +31,7 @@ route.get('/:userId',(req,res)=>{
 
 route.delete('/delete',(req,res)=>{
    
-//     let pid=req.body.productId;
-//    let uid=req.body.userId;
+
      let pid=req.query.productId;
     let uid=req.query.userId;
   
@@ -95,7 +94,7 @@ route.post('/',(req,res)=>{
         {
           
            let newquantity=data.quantity+quantity;
-          // console.log(newquantity)
+          
             Cart.update(
                 {quantity: newquantity},
                 {where:{
@@ -145,7 +144,7 @@ route.post('/',(req,res)=>{
 
 
 
-//todo patch
+
 module.exports={
     route
 }
